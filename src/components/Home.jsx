@@ -7,15 +7,15 @@ import reader from "../assets/reader.json";
 const Home = () => {
     return (
         <div className='my-container'>
-            <div className='grid md:grid-cols-2 gap-8'>
-                <div>
+            <div className='grid lg:grid-cols-2 gap-16'>
+                <div className='space-y-4 md:space-y-8'>
                     <p className='badge'>ON SALE!</p>
                     <h1 className='text-4xl font-bold'>A reader lives a
                         <br /> thousand lives <span className='text-blue-400'>before he dies</span></h1>
                     
-                    <p className='text-gray-600 text-xl my-8'>Books are a uniquely portable magic. Books serve to show a man that those original thoughts of his aren’t very new after all. The man who does not read good books is no better than the man who can’t.</p>
+                    <p className='text-gray-600 md:text-xl'>Books are a uniquely portable magic. Books serve to show a man that those original thoughts of his aren’t very new after all. The man who does not read good books is no better than the man who can’t.</p>
 
-                    <div className='flex gap-8 items-center'>
+                    <div className='flex gap-4 md:gap-8 items-center'>
                         <Link to='/books' className="btn">
                             View Store
                             <ShoppingCartIcon className='ml-2 w-6 h-6' />
@@ -25,8 +25,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
-                    <Lottie animationData={reader} loop={true} />
+                <div>
+                    <Lottie className='xl:h-96' animationData={reader} loop={true} />
                 </div>
             </div>
         </div>

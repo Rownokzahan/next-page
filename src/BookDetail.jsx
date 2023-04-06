@@ -17,10 +17,10 @@ const BookDetail = () => {
 
     return (
         <div className='my-container' >
-            <div className='border border-gray-800 rounded grid md:grid-cols-2'>
+            <div className='border border-gray-800 rounded grid lg:grid-cols-2'>
                 <img src={image} className='w-full' alt="" />
 
-                <div className='m-20 space-y-8'>
+                <div className='mt-0 lg:mt-[13%] mx-[4%] lg:mx-0 mb-[13%] lg:mr-[13%] space-y-4 md:space-y-8'>
 
                     <div className='badge'>Brand New</div>
                     <h2 className='font-bold text-2xl md:text-4xl'>{title}</h2>

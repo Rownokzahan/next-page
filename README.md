@@ -3,7 +3,7 @@
 A simple React app built with React & React Router Dom.
 
 ## Live Link
-Hosted in Netlify -> [nextPage](https://next-page.netlify.app/)
+Hosted in Netlify -> [nextPage](https://timely-tapioca-146914.netlify.app/)
 
 ## API 
 Documentation Link -> [It Bookstore API](https://api.itbook.store/)
